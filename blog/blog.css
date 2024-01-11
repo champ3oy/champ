@@ -50,7 +50,7 @@ a {
 pre {
 	line-height: 0.6;
 	margin-bottom: -20px;
-	background-color: #080808;
+	background-color: #242424;
 	width: fit-content;
 	padding: 5px 10px;
 	border-radius: 8px;
@@ -82,4 +82,18 @@ div {
   *::-webkit-scrollbar {
 	display: none;
 	/* Safari and Chrome */
+  }
+
+  @media (min-width:320px)  {
+	#console {
+		font-family: courier, monospace;
+		color: #fff;
+		width:"100%";
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:100px;
+		font-size:18px;
+		margin-bottom: 100px;
+		overflow-x: scroll;
+	}
   }
