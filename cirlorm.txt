@@ -5,11 +5,12 @@
 akotosel6@gmail.com 
 <!-- akotoselormjonathan -->
 
-I am a software engineer with a taste for solving hard problems and building intuitive software experiences with attention to details for mobile, web and backend infastructures.<!-- akotoselormjonathan -->
-<p>I have a passion for learning, and I am constantly seeking ways to improve my skills by trying new technologies and learning on the go.</p>
+Welcome to my digital space!, I am a seasoned software engineer with a love for tackling intricate problems and crafting seamless software experiences across mobile, web, and backend infrastructures.<!-- akotoselormjonathan -->
+<p>Driven by a passion for learning, I thrive on exploring new technologies and continually enhancing my skills on the go.</p>
 <p>Currently building with <span id="a">Typescript</span>, <span id="a">GoLang</span> & <span id="a">Python</span>. \n
 Frameworks: <span id="a">React Native</span>, <span id="a">Next.js</span>, <span id="a">GoFiber</span>, <span id="a">Flask</span> & <span id="a">Express.js</span>.</p> <!-- akotoselormjonathan -->
 
+If you're curious about what I do, take a peek around. Thanks for dropping by!
 
 <h2>Experiences 🧑🏼‍💻</h2>
 <p><span id="b">-></span> Currently working as a mobile engineer at <a href="https://powershop.link"> Powershop Inc</a> where I'm building mobile experiences with <span id="a">React Native.</span></p><!-- akotoselormjonathan -->
