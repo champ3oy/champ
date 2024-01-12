@@ -32,7 +32,7 @@ If you're curious about what I do, take a peek around. Thanks for dropping by!
 ╰────────────────────────╯       ╰────────────────────────╯       ╰────────────────────────╯
 </pre>
 <div id="space">
-<span><span id="b">-></span> more on my github <a href="https://github.com/champ3oy"> /champ3oy</a></span>
+<span><span id="b">-></span> want to see more? <a href="/projects/index.html"> my projects</a></span>
 
 
 <h2>Writing 📝</h2>
@@ -45,6 +45,7 @@ If you're curious about what I do, take a peek around. Thanks for dropping by!
 
 Feel free to send me an email at <!-- akotoselormjonathan --><a href="mailto:akotosel6@gmail.com">Email</a>.
 
+➡️ github <span id="b">-></span> <a href="https://github.com/champ3oy">/champ3oy</a>
 ➡️ twitter <span id="b">-></span> <a href="https://twitter.com/cirlormx">@cirlormx</a>
 ➡️ linkedin <span id="b">-></span> <a href="https://www.linkedin.com/in/jonathan-selorm-akoto-2828a514a/">/in/jonathan-selorm-akoto</a>
 ➡️ phone <span id="b">-></span> <a href="tel:+233540920557">+233540920557</a>
