@@ -5,8 +5,15 @@
 I'm glad to show off of the projects I worked on or contributed to.
 <!-- akotoselormjonathan -->
 
+
+<h2>MobileView</h2>
+<p><span id="b">-></span> A VS Code extension for responsive web development. Used by over 100K developers <a href="https://marketplace.visualstudio.com/items?itemName=cirlorm.mobileview"> open link</a> </p><!-- akotoselormjonathan -->
+
 <h2>BeSocial</h2>
 <p><span id="b">-></span> BeSocial is a video social platform for content creators in africa to monetize their craft. my work on BeSocial includes building the mobile app with <span id="a">react native</span> and the website with <span id='a'>next.js</span> <a href="https://joinb.social/"> open link</a></p><!-- akotoselormjonathan -->
+
+<h2>Samarithan</h2>
+<p><span id="b">-></span> Samarithan (Sam) is an AI chatbot for WhatsApp powered by chatGPT   <a href="https://sam.deadal.us/"> open link</a></p><!-- akotoselormjonathan -->
 
 <h2>Powershop</h2>
 <p><span id="b">-></span> Powershop is an e-commerce platform targeted towards creators. I work on the MVP of powershop that was used to raise a seed round of $175K  <a href="https://powershop.link/"> open link</a></p><!-- akotoselormjonathan -->
@@ -20,8 +27,36 @@ I'm glad to show off of the projects I worked on or contributed to.
 <h2>Billions</h2>
 <p><span id="b">-></span> Billions is ann influencer marketing platform that connect businesses with influencers.  <a href="https://www.joinbillions.co/"> open link</a></p><!-- akotoselormjonathan -->
 
+<h2>Refir</h2>
+<p><span id="b">-></span> Intergrate a referral program in your app or website with ease and tract realtime engagement  <a href="https://www.refir.xyz/"> open link</a></p><!-- akotoselormjonathan -->
+
+<h2>PeerCast</h2>
+<p><span id="b">-></span> Distributed OHH advertising for small business and online sellers  <a href="https://www.peercast.space/"> open link</a></p><!-- akotoselormjonathan -->
+
+<h2>Tixvote</h2>
+<p><span id="b">-></span> A platform for create USSD and online voting to your events and pagentaries  <a href="https://tixvote.com/"> open link</a></p><!-- akotoselormjonathan -->
+
+<h2>SoundQR</h2>
+<p><span id="b">-></span> Recognise voice advertisements with our shazam like app   <a href="https://soundqr.netlify.app/"> open link</a></p><!-- akotoselormjonathan -->
+
+<h2>Illmi Children Fnnd</h2>
+<p><span id="b">-></span> Website for a foundation to help Children at the north of nigeria go to school for free   <a href="https://illmichildrensfund.org/"> open link</a></p><!-- akotoselormjonathan -->
+
 <h2>Beaucoup</h2>
-<p><span id="b">-></span> Beaucoup is a remittance service provider to offers seamless money transfer from US and Canada to africam countrie </p><!-- akotoselormjonathan -->
+<p><span id="b">-></span> Beaucoup is a remittance service provider to offers seamless money transfer from US and Canada to african countries </p><!-- akotoselormjonathan -->
+
+<h2>Incident Alerting and On-call Scheduling</h2>
+<p><span id="b">-></span> A small scale incident alerting and on-call scheduling platform built in golang <a href="https://github.com/champ3oy/IAOS"> open link</a> </p><!-- akotoselormjonathan -->
+
+<h2>InitCLI </h2>
+<p><span id="b">-></span> A CLI tool to init projects in different frameworks built in golang <a href="https://github.com/champ3oy/initcli"> open link</a> </p><!-- akotoselormjonathan -->
+
+<h2>Sam </h2>
+<p><span id="b">-></span> Sam is an AI chatbot powered by OpenAI’s API that integrates with Whatsapp. <a href="https://sam.deadal.us/"> open link</a>
+ </p><!-- akotoselormjonathan -->
+
+<h2>Dash Eats </h2>
+<p><span id="b">-></span> A food ordering app for the university of cape coast campus. </p><!-- akotoselormjonathan -->
 
  
 
