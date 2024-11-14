@@ -1,24 +1,20 @@
 <div id="space">
-<span id="a">cirlorm@dev</span>:<span id="b">~</span><span id="c">$</span> cd desktop/<!-- akotoselormjonathan -->about_me
+<span id="a">cirlorm@dev</span>:<span id="b">~</span><span id="c">$</span> cd desktop/<!-- akotoselormjonathan -->portfolio
 <span id="a">cirlorm@dev</span>:<span id="b">~</span><span id="c">$</span> cat <!-- akotoselormjonathan -->cirlorm.txt<br/><br/>
+
 <h1>Selorm Akoto</h1> 
-Software Engineer 
+Software Engineer (Full Stack)
 <!-- akotoselormjonathan -->
 
 ><a href="/projects/index.html">Projects</a>          ><a href="/blog/1.html">Blogs</a>          ><a href="https://resume.cirlorm.dev/">Resume</a>
 
-I am currently available for my next role. I am open to both frontend and backend roles.
 <br/>
-Although I'm a Go enthusiast, I have 3 years of experience building mobile and web apps, cloud infra, REST and GraphQL API services. 
-Apart from Go, I am also experienced in other languages such as Typescript and Python.
+I'm a Go enthusiast, I have 3 years experience building mobile and web apps, cloud infra, REST and GraphQL API services. 
+Apart from Go, I am also experienced in Python and have worked with C++ and Java in the past.
 <br/>
-I am mostly interested in building out mobile apps, cloud infra, microservices, observability & monitoring tools and APIs services. My previous domains are Finance & Payment, Social Networks, Logistics and Dev tools.
+I am mostly interested in building mobile and web apps, cloud infra, microservices, observability & monitoring tools and APIs services. My previous domains are Finance & Payment, Social Networks, Logistics and Dev tools.
 I am interested in roles where I am very certain I can provide value to the team.
 <br/>
-What I bring to table:
-- I can join your team as a traditional IC ( employee/consultancy )
-- For founders, I can also be the first/founding engineer to take you from idea/protype to production while picking out tech stack, infra achitecture and others.
-- Finally, I can also help to review architecture and/or code.
 
 <p>Currently building with <span id="a">Typescript</span>, <span id="a">GoLang</span> & <span id="a">Python</span>. 
 
@@ -26,25 +22,6 @@ Frameworks: <span id="a">React Native</span>, <span id="a">Next.js</span>, <span
 
 <h2>Experiences 🧑🏼‍💻</h2>
 <p><span id="b">-></span> Feel free to check more here <a href="https://resume.cirlorm.dev/"> Open Resume</a></p><!-- akotoselormjonathan -->
-
-<h2>Projects 💾</h2>
-<p>Selected projects I've worked on 
-</div>
-<pre id="scroll">
-╭────────────────────────╮       ╭────────────────────────╮       ╭────────────────────────╮
-│ BeSocial               │       │ MobileView             │       │ Samarithan             │
-├────────────────────────┤       ├────────────────────────┤       ├────────────────────────┤
-│                        │       │                        │       │                        │
-│ Video social           │       │ A VS-Code extension    │       │ AI chatbot for         │
-│ platform for creators. │       │ for faster responsive  │       │ WhatsApp powered by    │
-│                        │       │ testing for websites.  |       │ chatGTP                │
-│                        │       │                        |       │                        │
-│ <a href="https://joinb.social" target="blank">Open Link -></a>           │       │ <a href="https://marketplace.visualstudio.com/items?itemName=cirlorm.mobileview" target="blank">Open Link -></a>           │       │ <a href="https://sam.deadal.us" target="blank">Open Link -></a>           │
-╰────────────────────────╯       ╰────────────────────────╯       ╰────────────────────────╯
-</pre>
-<div id="space">
-<span><span id="b">-></span> want to see more? <a href="/projects/index.html"> my projects</a></span>
-
 
 <h2>Writing 📝</h2>
 <p>I write about the tech I use, interesting challenges and how I solved them and personal growth.</p><!-- akotoselormjonathan -->
