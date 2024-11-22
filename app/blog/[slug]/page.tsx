@@ -10,19 +10,15 @@ export async function generateStaticParams() {
   }));
 }
 
-export default async function PostPage({
-  params,
-}: {
-  params: { slug: string };
-}) {
-  const post = getPostBySlug(params.slug);
+export default async function PostPage({ params }: any) {
+  const post = await getPostBySlug(params?.slug);
 
   if (!post) {
     notFound();
   }
 
   // Import the MDX file directly
-  const PostContent = (await import(`@/posts/${params.slug}.mdx`)).default;
+  const PostContent = (await import(`@/posts/${params?.slug}.mdx`)).default;
 
   return (
     <div className="min-h-screen bg-black text-white p-8 font-['Courier_New'] text-sm px-5 md:px-40 2xl:px-[25%]">
