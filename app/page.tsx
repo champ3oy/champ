@@ -61,8 +61,11 @@ const TerminalPortfolio = () => {
 
         <div className="flex items-center space-x-1">
           <span className="text-gray-400">&gt;</span>
-          <a href="/projects" className="text-cyan-400 hover:underline">
-            Projects
+          <a
+            href="https://github.com/champ3oy"
+            className="text-cyan-400 hover:underline"
+          >
+            Github
           </a>
           <span className="text-gray-400">&gt;</span>
           <a href="/blog" className="text-cyan-400 hover:underline">
@@ -77,9 +80,9 @@ const TerminalPortfolio = () => {
         <div className="space-y-8">
           <p>
             Building apps for web, mobile and server. I aim to build software
-            that is functional and scales.
+            that is functional and scalable.
             <br />I am a <span className="text-orange-500">Go</span> enthusiast
-            ans I have some experience in{" "}
+            and I have some experience in{" "}
             <span className="text-orange-500">Python</span> and have worked with{" "}
             <span className="text-orange-500">C++</span> and{" "}
             <span className="text-orange-500">Java</span> in the past.
@@ -106,14 +109,14 @@ const TerminalPortfolio = () => {
 
         {/* <div className="" */}
         <div>
-          <div className="flex">
+          {/* <div className="flex">
             <span className="text-lime-400">cirlorm@dev</span>
             <span className="text-white">
               :<span className="text-pink-500">~</span>
               <span className="text-cyan-500">$</span>{" "}
             </span>
             <span className="ml-1">cd desktop/experience</span>
-          </div>
+          </div> */}
 
           {/* Workspace Info Box */}
           <div className="border border-gray-600 rounded mt-4 p-4 px-8">
