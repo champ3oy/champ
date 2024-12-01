@@ -76,40 +76,24 @@ const TerminalPortfolio = () => {
 
         <div className="space-y-8">
           <p>
-            Building solutions for web, mobile and server. I aim to build
-            software that is functional and scales. I have 3 years experience
-            building mobile and web apps with{" "}
-            <span className="text-orange-500">react native</span> and{" "}
-            <span className="text-orange-500">react</span>.
-          </p>
-          <p>
-            I am also a <span className="text-orange-500">Go</span> enthusiast,
-            building quest projects in golang. I am also experienced in{" "}
+            Building apps for web, mobile and server. I aim to build software
+            that is functional and scales.
+            <br />I am a <span className="text-orange-500">Go</span> enthusiast
+            ans I have some experience in{" "}
             <span className="text-orange-500">Python</span> and have worked with{" "}
             <span className="text-orange-500">C++</span> and{" "}
             <span className="text-orange-500">Java</span> in the past.
-          </p>
-          <p className="whitespace-pre-line">
-            I am constantly learning to improve my skills. I usually build
-            projects when I am learning something new, check our my{" "}
-            <span className="text-cyan-500">projects</span>. I'm interested in
-            Cloud Infastructure, Observability & Monitoring and Microservice.
+            <br />I am currently learning about microservices, monitoring and
+            observability, and cloud infastructures.
           </p>
         </div>
 
         <div className="space-y-1">
           <p>
             Currently building with{" "}
-            <span className="text-lime-400">Typescript</span>,{" "}
-            <span className="text-lime-400">GoLang</span> &{" "}
+            <span className="text-lime-400">GoLang</span> ,{" "}
+            <span className="text-lime-400">Typescript</span>&{" "}
             <span className="text-lime-400">Python</span>.
-          </p>
-          <p>
-            Frameworks: <span className="text-lime-400">React Native</span>,{" "}
-            <span className="text-lime-400">Next.js</span>,{" "}
-            <span className="text-lime-400">GoFiber</span>,{" "}
-            <span className="text-lime-400">Flask</span> &{" "}
-            <span className="text-lime-400">Express.js</span>.
           </p>
         </div>
 
@@ -139,20 +123,20 @@ const TerminalPortfolio = () => {
               <span className="text-lime-400">Black Star Group</span>
             </div>
 
-            <div className="grid grid-cols-[80px_1fr] gap-y-1 mb-4 pl-4 text-white/50">
+            <div className="grid grid-cols-[80px_1fr] gap-y-1 pl-4 text-white/50">
               <span>Period</span>
               <span>Current</span>
             </div>
-            <div className="bg- text-white px-0 py-0.5 inline-block">
+            {/* <div className="bg- text-white px-0 py-0.5 inline-block">
               Previously worked at{" "}
               <span className="text-orange-500">@PowerShop Inc</span> {", "}
               <span className="text-orange-500">@BB.Social Inc</span>
-            </div>
+            </div> */}
           </div>
 
           <div className="mt-20 flex flex-col w-full">
             <pre
-              className={`font-mono text-left whitespace-pre select-none`}
+              className={`font-mono text-left whitespace-pre select-none scale-75 md:scale-100`}
               style={{ lineHeight: "1.2" }}
             >
               {blockStyle}
