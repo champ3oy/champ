@@ -159,7 +159,7 @@ const page = () => {
 
         <div className='flex flex-col w-full md:max-w-md mx-auto pt-36 px-8 md:px-0 pt-36 '>
           <h1 className='text-5xl font-bold runde-bold text-black'>
-            Hands on strategy and design to make your product stand out.
+            I design and build products that are useful and beautiful.
           </h1>
         </div>
 
