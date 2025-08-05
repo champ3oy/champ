@@ -32,21 +32,22 @@ const experience = [
     title: 'Software Engineer',
     company: 'Back Star Group',
     duration: '2023 - Present',
-    description: 'Building investment platform for the african market ensuring the platform is valuable to the users and efficient for businesses.'
+    description: 'Crafting a modern investment platform tailored for Africa, making investing simpler, smarter, and more accessible.'
   },
   {
     title: 'Deadalus Systems',
     company: 'Self Employed',
     duration: '2022 - Present',
-    description: 'Building consumer apps for the world to socialize, learn, and just for fun.'
+    description: 'Dreaming up and building playful, useful apps that help people connect, learn, and enjoy the internet a little more.'
   },
   {
     title: 'BeSocial',
     company: 'Software Engineer',
     duration: '2020 - 2024',
-    description: 'Built multiple apps for the BeSocial brand including besocial, powershop, and candor.'
+    description: 'Brought ideas to life across a suite of apps from social networking to shopping all under the BeSocial umbrella.'
   }
-]
+];
+
 
 const ExperienceCard = ({ title, company, duration, description }: { title: string, company: string, duration: string, description: string }) => {
   return (
