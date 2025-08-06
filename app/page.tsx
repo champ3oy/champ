@@ -48,6 +48,37 @@ const experience = [
   }
 ];
 
+const featuredOpenSource = [
+  {
+    name: 'wen',
+    link: 'https://github.com/champ3oy/wen',
+    description: 'Wen is an agentic cli assistant that helps you execute shell commands and multi-step tasks using natural language.'
+  },
+  {
+    name: 'mobileview',
+    link: 'https://github.com/champ3oy/mobileview',
+    description: 'MobileView is a VSCode extension that helps you view your website on different devices and screen sizes.'
+  },
+  {
+    name: 'rodin',
+    link: 'https://github.com/champ3oy/rodin',
+    description: 'Rodin is an uptime monitoring tool that helps you monitor your website and services.'
+  },
+]
+
+const OpenSourceCard = ({ name, link, description }: { name: string, link: string, description: string }) => {
+
+  return (
+    <div className='flex flex-col'>
+      <h3 className='text-2xl font-bold runde-bold text-black'>{name}</h3>
+      <Link href={link} target='_blank' className='text-sm runde-medium text-black/50'>{link}</Link>
+      <p className='text-base runde-regular text-black/80 leading-relaxed'>
+        {description}
+      </p>
+    </div>
+  )
+}
+
 
 const ExperienceCard = ({ title, company, duration, description }: { title: string, company: string, duration: string, description: string }) => {
   return (
@@ -174,6 +205,20 @@ const page = () => {
           <div className='space-y-12'>
             {experience.map((item, index) => (
               <ExperienceCard key={index} {...item} />
+            ))}
+          </div>
+        </div>
+
+        {/* OSS Section */}
+        <div className='flex flex-col w-full md:max-w-md mx-auto pt-36 px-8 md:px-0 pt-36 pb-20'>
+          <div className='text-start mb-16'>
+            <p className='text-xl runde-medium text-black/70'>Open Source</p>
+            <h2 className='text-5xl font-bold runde-bold text-black mb-4'>My contributions to the open source community</h2>
+          </div>
+
+          <div className='space-y-12'>
+            {featuredOpenSource.map((item, index) => (
+              <OpenSourceCard key={index} {...item} />
             ))}
           </div>
         </div>
