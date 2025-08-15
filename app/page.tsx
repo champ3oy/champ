@@ -29,8 +29,8 @@ const apps = [
 
 const experience = [
   {
-    title: 'Software Engineer',
-    company: 'Back Star Group',
+    title: 'Back Star Group',
+    company: 'Software Engineer',
     duration: '2023 - Present',
     description: 'Crafting a modern investment platform tailored for Africa, making investing simpler, smarter, and more accessible.'
   },
