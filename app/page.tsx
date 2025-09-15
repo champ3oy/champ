@@ -7,19 +7,19 @@ const TerminalPortfolio = () => {
   const socialLinks = [
     {
       platform: "X",
-      username: "@cirlormx",
-      url: "https://x.com/cirlormx",
+      username: "@smoke_csa",
+      url: "https://x.com/smoke_csa",
     },
-    {
-      platform: "LinkedIn",
-      username: "in/cirlormx",
-      url: "https://www.linkedin.com/in/cirlormx",
-    },
-    {
-      platform: "dev.to",
-      username: "cirlormx",
-      url: "https://dev.to/cirlormx",
-    },
+    // {
+    //   platform: "LinkedIn",
+    //   username: "in/cirlormx",
+    //   url: "https://www.linkedin.com/in/cirlormx",
+    // },
+    // {
+    //   platform: "dev.to",
+    //   username: "cirlormx",
+    //   url: "https://dev.to/cirlormx",
+    // },
   ];
 
   const tableWidth = 30;
@@ -35,7 +35,7 @@ const TerminalPortfolio = () => {
     <div className="min-h-screen bg-black text-white p-8 font-['Courier_New'] text-sm px-5 md:px-44 2xl:px-[25%]">
       <div className="space-y-1 mb-12 mt-10">
         <div className="flex">
-          <span className="text-lime-400">cirlorm@dev</span>
+          <span className="text-lime-400">nsowah@dev</span>
           <span className="text-white">
             :<span className="text-pink-500">~</span>
             <span className="text-cyan-500">$</span>{" "}
@@ -43,26 +43,26 @@ const TerminalPortfolio = () => {
           <span className="ml-1">cd desktop/portfolio</span>
         </div>
         <div className="flex">
-          <span className="text-lime-400">cirlorm@dev</span>
+          <span className="text-lime-400">nsowah@dev</span>
           <span className="text-white">
             :<span className="text-pink-500">~</span>
             <span className="text-cyan-500">$</span>{" "}
           </span>
-          <span className="ml-1">cat cirlorm.txt</span>
+          <span className="ml-1">cat nsowah.txt</span>
         </div>
       </div>
 
       {/* Main Content */}
       <div className="space-y-8">
         <div>
-          <h1 className="text-3xl font-bold mb-1">Selorm Akoto</h1>
+          <h1 className="text-3xl font-bold mb-1">Nsowah Alexander</h1>
           <h2 className="text-sm">Software Engineer (Full Stack)</h2>
         </div>
 
         <div className="flex items-center space-x-1">
           <span className="text-gray-400">&gt;</span>
           <a
-            href="https://github.com/champ3oy"
+            href="https://github.com/recklessbud"
             className="text-cyan-400 hover:underline"
           >
             Github
@@ -81,21 +81,19 @@ const TerminalPortfolio = () => {
           <p>
             Building apps for web, mobile and server. I aim to build software
             that is functional and scalable.
-            <br />I am a <span className="text-orange-500">Go</span> enthusiast
-            and I have some experience in{" "}
-            <span className="text-orange-500">Python</span> and have worked with{" "}
-            <span className="text-orange-500">C++</span> and{" "}
-            <span className="text-orange-500">Java</span> in the past.
-            <br />I am currently learning about microservices, monitoring and
-            observability, and cloud infastructures.
+            <br />I am a <span className="text-orange-500">Python</span>{" "}
+            enthusiast and I have some experience in{" "}
+            <span className="text-orange-500">Typescript</span> and have worked
+            with <span className="text-orange-500">C#</span> in the past.
+            <br />I am currently learning about Asynchronous Processing,
+            Background Jobs and cloud infastructures (AWS).
           </p>
         </div>
 
         <div className="space-y-1">
           <p>
             Currently building with{" "}
-            <span className="text-lime-400">GoLang</span> ,{" "}
-            <span className="text-lime-400">Typescript</span>&{" "}
+            <span className="text-lime-400">Typescript</span> &{" "}
             <span className="text-lime-400">Python</span>.
           </p>
         </div>
@@ -107,16 +105,17 @@ const TerminalPortfolio = () => {
           </span>
         </div>
 
-        {/* <div className="" */}
-        <div>
-          {/* <div className="flex">
-            <span className="text-lime-400">cirlorm@dev</span>
-            <span className="text-white">
-              :<span className="text-pink-500">~</span>
-              <span className="text-cyan-500">$</span>{" "}
-            </span>
-            <span className="ml-1">cd desktop/experience</span>
-          </div> */}
+        <div className="">
+          <div>
+            <div className="flex">
+              <span className="text-lime-400">nsowah@dev</span>
+              <span className="text-white">
+                :<span className="text-pink-500">~</span>
+                <span className="text-cyan-500">$</span>{" "}
+              </span>
+              <span className="ml-1">cd desktop/experience</span>
+            </div>
+          </div>
 
           {/* Workspace Info Box */}
           <div className="border border-gray-600 rounded mt-4 p-4 px-8">
@@ -148,7 +147,7 @@ const TerminalPortfolio = () => {
               <div className="mt-5">
                 <div className="text-zinc-500 ">made in Ghana ❣️🇬🇭</div>
                 <div className="text-zinc-500 flex gap-4 mt-2">
-                  <Link href="https://x.com/cirlormx">
+                  <Link href="https://x.com/smoke_csa">
                     <TwitterIcon size={19} />
                   </Link>
                   <Link href="www.linkedin.com/in/cirlormx">
@@ -178,10 +177,4 @@ const TerminalPortfolio = () => {
 export default TerminalPortfolio;
 
 const blockStyle = `
- ____   _       _                     
-/  __\\ (_)     | |                    
-| /  \\  _  ___ | |    _____    ___ _________
-| |    | ||  _ | |   /     \\  |  _ |   _  _ \\
-| \\__/ | || (  | |_ |  (_)  | | (  | | | | | |
-\\____/ |_||_|  \\___/ \\_____/  |_|  |_| |_| | |
 `;
