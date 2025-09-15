@@ -1,14 +1,59 @@
+/* local fonts */
+@font-face {
+  font-family: 'OpenRunde-Regular';
+  src: url('/fonts/OpenRunde-Regular.woff') format('woff');
+  font-weight: 200 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'OpenRunde-Medium';
+  src: url('/fonts/OpenRunde-Medium.woff') format('woff');
+  font-weight: 200 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'OpenRunde-Bold';
+  src: url('/fonts/OpenRunde-Bold.woff') format('woff');
+  font-weight: 200 700;
+  font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #F3F3F3;
   --foreground: #171717;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'OpenRunde-Regular', Arial, Helvetica, sans-serif;
+}
+
+.runde-regular {
+  font-family: 'OpenRunde-Regular', Arial, Helvetica, sans-serif;
+}
+.runde-medium {
+  font-family: 'OpenRunde-Medium', Arial, Helvetica, sans-serif;
+}
+.runde-bold {
+  font-family: 'OpenRunde-Bold', Arial, Helvetica, sans-serif;
+}
+
+.glass-button-shadow {
+  background: linear-gradient(180deg,#ececec,#e5e5e5 52%,#ebebeb 85%);
+  color: #7f7f7f;
+  text-shadow: inset 0 4px 4px rgba(0,0,0,.3);
+  box-shadow: 0 20px 20px rgba(0,0,0,.1),inset 0 -6px 8px rgba(255,255,255,.6),inset 0 6px 8px rgba(0,0,0,.1);
+  transition: all .3s ease-in-out;
+}
+
+.background-gradient {
+  height: 799px;
+  background: repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.04) 0px, rgba(0, 0, 0, 0.04) 1px, transparent 1px, transparent 80px),
+repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.04) 0px, rgba(0, 0, 0, 0.04) 1px, transparent 1px, transparent 80px),
+linear-gradient(180deg, #EAEAEA 8%, #F2F2F2 91%, #F3F3F3 100%) /* Changed last color stop to #F3F3F3 */;
 }
