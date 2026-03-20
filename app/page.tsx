@@ -58,6 +58,11 @@ const experience = [
 
 const featuredOpenSource = [
   {
+    name: "mavis bacon🥓",
+    link: "https://github.com/champ3oy/mavis-bacon",
+    description: "Mavis Bacon is a web app that helps pratice typing.",
+  },
+  {
     name: "wen",
     link: "https://github.com/champ3oy/wen",
     description:
