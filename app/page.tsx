@@ -16,9 +16,9 @@ const apps = [
     link: "https://fren.ing",
   },
   {
-    name: "Jelo",
-    logo: "/jelo.png",
-    link: "https://jelo.me",
+    name: "SMLTWN",
+    logo: "/smltwn.png",
+    link: "https://smltwn.com",
   },
   {
     name: "Zend",
