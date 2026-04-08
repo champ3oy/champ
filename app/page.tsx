@@ -58,6 +58,12 @@ const experience = [
 
 const featuredOpenSource = [
   {
+    name: "Klick",
+    link: "https://github.com/champ3oy/klick",
+    description:
+      "A macOS menu bar app that plays mechanical keyboard sounds on every keypress and mouse click.",
+  },
+  {
     name: "mavis bacon🥓",
     link: "https://github.com/champ3oy/mavis-bacon",
     description: "Mavis Bacon is a web app that helps pratice typing.",
