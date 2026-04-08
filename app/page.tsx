@@ -64,6 +64,12 @@ const featuredOpenSource = [
       "A macOS menu bar app that plays mechanical keyboard sounds on every keypress and mouse click.",
   },
   {
+    name: "nextcanvs",
+    link: "https://github.com/HXI-Labs/nextcanvas",
+    description:
+      "A dev tool that lets you edit React UIs visually in the browser and use AI (Claude Code) to automatically update the underlying code based on your instructions.",
+  },
+  {
     name: "mavis bacon🥓",
     link: "https://github.com/champ3oy/mavis-bacon",
     description: "Mavis Bacon is a web app that helps pratice typing.",
