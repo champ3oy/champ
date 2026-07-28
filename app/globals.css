@@ -57,3 +57,7 @@ body {
 repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.04) 0px, rgba(0, 0, 0, 0.04) 1px, transparent 1px, transparent 80px),
 linear-gradient(180deg, #EAEAEA 8%, #F2F2F2 91%, #F3F3F3 100%) /* Changed last color stop to #F3F3F3 */;
 }
+
+.background-plain {
+  background: linear-gradient(180deg, #EAEAEA 8%, #F2F2F2 91%, #F3F3F3 100%);
+}
