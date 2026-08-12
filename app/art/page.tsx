@@ -11,6 +11,7 @@ const artworks = [
     images: ["/art-000.jpg"],
     medium: "Acrylic on canvas",
     date: "",
+    tags: [],
     meaning: "I painted this at a sip-and-paint party, where it was voted second best in the group. Looking at it reminds me of friends, and what friends bring to your life. A day (and night) I'll never forget 🌚.",
   },
   {
@@ -18,6 +19,7 @@ const artworks = [
     images: ["/art-001.jpg"],
     medium: "Acrylic on canvas",
     date: "",
+    tags: ["with Anzy"],
     meaning: "I painted this with my friend Anzy. This one is mine. The piece she started became 'The Clearing'. Just another painting we made for the fun of it, enjoying each other's company.",
   },
   {
@@ -25,6 +27,7 @@ const artworks = [
     images: ["/art-002.jpg"],
     medium: "Acrylic on canvas",
     date: "",
+    tags: ["with Anzy"],
     meaning: "This started as Anzy's painting. Many might think I destroyed her work, but to me I only added to it. It's a reminder that there's always light at the end of the tunnel. No matter how dark the forest you walk through, you'll always come out the other side and find yourself on a beautiful plain.",
   },
   {
@@ -32,6 +35,7 @@ const artworks = [
     images: ["/art-003.jpg"],
     medium: "Marker on paper",
     date: "",
+    tags: [],
     meaning: "Honestly? Even I'm not sure. A spontaneous marker doodle with no plan and no meaning, just colours and shapes for the fun of it.",
   },
   {
@@ -39,6 +43,7 @@ const artworks = [
     images: ["/art-004.jpg"],
     medium: "Acrylic on canvas",
     date: "",
+    tags: [],
     meaning: "A view from my window, somewhere in Kanda.",
   },
   {
@@ -46,6 +51,7 @@ const artworks = [
     images: ["/art-005.jpg"],
     medium: "Acrylic on canvas",
     date: "",
+    tags: [],
     meaning: "The family house, the place that holds everyone together. All the colour, warmth, and life of home in a single frame.",
   },
   {
@@ -53,6 +59,7 @@ const artworks = [
     images: ["/art-006.jpg"],
     medium: "Oil pastel on paper",
     date: "",
+    tags: [],
     meaning: "A quiet portrait of a lady at rest, caught in a still, peaceful moment, somewhere between waking and sleep.",
   },
 ];
@@ -91,6 +98,7 @@ const ArtCard = ({
   images,
   medium,
   date,
+  tags,
   meaning,
   onOpen,
 }: {
@@ -98,6 +106,7 @@ const ArtCard = ({
   images: string[];
   medium: string;
   date: string;
+  tags: string[];
   meaning: string;
   onOpen: (preview: Preview) => void;
 }) => {
@@ -119,6 +128,18 @@ const ArtCard = ({
       <h3 className="text-2xl font-bold runde-bold text-black mt-4">{title}</h3>
       {meta && (
         <p className="text-sm runde-medium text-black/40 mt-1">{meta}</p>
+      )}
+      {tags.length > 0 && (
+        <div className="flex flex-wrap gap-2 mt-2">
+          {tags.map((tag) => (
+            <span
+              key={tag}
+              className="inline-flex items-center rounded-full bg-black/5 border border-black/10 px-3 py-1 text-xs runde-medium text-black/60"
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
       )}
       <p className="text-base runde-regular text-black/50 leading-relaxed mt-2">
         {meaning}
